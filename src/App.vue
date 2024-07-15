@@ -2,7 +2,7 @@
 
 import { ref, onMounted, computed } from 'vue'
 
-import { API_KEY } from '.env'
+import { API_KEY } from './constants/index.js'
 import { BASE_URL } from './constants/index.js'
 
 import { capitalizeFirstLetter } from './utils/index.js'
